@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/shopping_basket.css">
+    <title>Shopping basket</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header__block">
+        <div class="header__upper">
+            <div class="search__pc">
+                <img src="assets/img/main/Search.jpg" alt="#">
+            </div>
+            <div class="logo">Avion</div>
+            <div class="header__icons">
+                <img src="assets/img/main/box.png" alt="#">
+                <img src="assets/img/main/user.png" alt="#">
+            </div>
+            <div class="header__icons__mobile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <rect width="16" height="16" fill="white" style="mix-blend-mode:multiply"/>
+                    <path d="M14.5001 13.7929L10.7241 10.0169C11.6314 8.92758 12.0839 7.53038 11.9873 6.11596C11.8908 4.70153 11.2526 3.37879 10.2057 2.42288C9.15867 1.46698 7.78347 0.951515 6.36612 0.983723C4.94877 1.01593 3.5984 1.59333 2.59593 2.59581C1.59345 3.59828 1.01605 4.94865 0.983845 6.366C0.951637 7.78335 1.4671 9.15855 2.423 10.2055C3.37891 11.2525 4.70165 11.8907 6.11608 11.9872C7.5305 12.0838 8.9277 11.6313 10.017 10.7239L13.7931 14.5L14.5001 13.7929ZM2.00012 6.5C2.00012 5.60998 2.26404 4.73995 2.75851 3.99993C3.25297 3.25991 3.95578 2.68313 4.77804 2.34254C5.60031 2.00194 6.50511 1.91283 7.37802 2.08646C8.25094 2.2601 9.05276 2.68868 9.6821 3.31802C10.3114 3.94735 10.74 4.74918 10.9137 5.62209C11.0873 6.495 10.9982 7.3998 10.6576 8.22207C10.317 9.04434 9.7402 9.74714 9.00018 10.2416C8.26016 10.7361 7.39013 11 6.50012 11C5.30705 10.9987 4.16323 10.5241 3.3196 9.68052C2.47597 8.83689 2.00144 7.69306 2.00012 6.5Z" fill="#2A254B"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(0,0,0,1)"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg>
+            </div>
+        </div>
+        <div class="header__lower">
+            <ul>
+                <li>Plant pots</li>
+                <li>Ceramics</li>
+                <li>Tables</li>
+                <li>Chairs</li>
+                <li>Crockery</li>
+                <li>Tableware</li>
+                <li>Cutlery</li>
+            </ul>
+        </div>
+    </header>
+    <main class="main__block">
+        <div class="main__container">
+            <h1>Your shopping cart</h1>
+            <div class="main__content">
+                <div class="content__titles">
+                    <h3>Product</h3>
+                    <h3>Quantity</h3>
+                    <h3>Total</h3>
+                </div>
+                <hr id="firsthr">
+                <div class="content__items">
+                    <div class="content__item">
+                        <div class="item__description">
+                            <div class="item__description__img">
+                                <img src="assets/img/Shoppingbasket/1.jpg" alt="">
+                            </div>
+                            <div class="item__description__text">
+                                <h2>Graystone vase</h2>
+                                <h3>A timeless ceramic vase with a tri color grey glaze.</h3>
+                                <h3>£85</h3>
+                                <div class="item__quantity__mobile">
+                                    <h3>-</h3>
+                                    <h2>1</h2>
+                                    <h3>+</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item__quantity__pc">
+                            <h3>-</h3>
+                            <h2>1</h2>
+                            <h3>+</h3>
+                        </div>
+                        <div class="item__price__pc">
+                            <h2>£85</h2>
+                        </div>
+                    </div>
+                    <div class="content__item">
+                        <div class="item__description">
+                            <div class="item__description__img">
+                                <img src="assets/img/Shoppingbasket/2.jpg" alt="">
+                            </div>
+                            <div class="item__description__text">
+                                <h2>Basic white vase</h2>
+                                <h3>Beautiful and simple this is one for the classics</h3>
+                                <h3>£125</h3>
+                                <div class="item__quantity__mobile">
+                                    <h3>-</h3>
+                                    <h2>1</h2>
+                                    <h3>+</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item__quantity__pc">
+                            <h3>-</h3>
+                            <h2>1</h2>
+                            <h3>+</h3>
+                        </div>
+                        <div class="item__price__pc">£125</div>
+                    </div>
+                </div>
+                <hr id="secondhr">
+                <div class="content__total">
+                    <div class="subtotal">
+                        <h3>Subtotal</h3>
+                        <h2>£210</h2>
+                    </div>
+                    <h4>Taxes and shipping are calculated at checkout</h4>
+                    <button>Go to checkout</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer__block">
+        <div class="footer__content">
+            <div class="footer__upper">
+                <div class="footer__items">
+                    <div class="footer__item">
+                        <h2>Menu</h2>
+                        <h3>New arrivals</h3>
+                        <h3>Best sellers</h3>
+                        <h3>Recently viewed</h3>
+                        <h3>Popular this week</h3>
+                        <h3>All products</h3>
+                    </div>
+                    <div class="footer__item">
+                        <h2>Categories</h2>
+                        <h3>Crockery</h3>
+                        <h3>Furniture</h3>
+                        <h3>Homeware</h3>
+                        <h3>Plant pots</h3>
+                        <h3>Chairs</h3>
+                        <h3>Crockery</h3>
+                    </div>
+                    <div class="footer__item">
+                        <h2>Our company</h2>
+                        <h3>About us</h3>
+                        <h3>Vacancies</h3>
+                        <h3>Contact us</h3>
+                        <h3>Privacy</h3>
+                        <h3>Returns policy</h3>
+                    </div>
+                    <div class="footer__item">
+                        <h2>Join our mailing list</h2>
+                        <div class="footer__input">
+                            <input type="text" placeholder="your@email.com">
+                            <button>Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__lower">
+                <hr>
+                <div class="footer__lower__items">
+                    <div class="footer__lower__item">
+                        <h3>Copyright 2022 Avion LTD</h3>
+                    </div>
+                    <div class="footer__lower__item" id="footer__icons">
+                        <img src="assets/img/About/in.svg" alt="#">
+                        <img src="assets/img/About/facebook.svg" alt="#">
+                        <img src="assets/img/About/instagram.svg" alt="#">
+                        <img src="assets/img/About/skype.svg" alt="#">
+                        <img src="assets/img/About/twiter.svg" alt="#">
+                        <img src="assets/img/About/pinterest.svg" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
